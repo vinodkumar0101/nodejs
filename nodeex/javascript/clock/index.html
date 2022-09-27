@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>My clock</title>
+        <link href="https://fonts.googleapis.com/css?family=Bungee|Bungee+Shade|Covered+By+Your+Grace" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body>
+        <div class="page">
+            <header>
+                <h1>My clock</h1>
+            </header>
+
+        <h4>
+            I can remind you!<br>
+            <span id="clock">Clock goes here</span>
+        </h4>
+        <img id="clockimg" src="clock.jpg" alt="clockimage" width="400">
+        <blockquote id="timeEvent">This is where time events are reported </blockquote>
+        set wakeup time
+        <select id="wakeuptimeselect">
+            <option value="1">4 PM - 5PM</option>
+            <option value="2">5 PM - 6PM</option>
+            <option value="3">6 PM - 7PM</option>
+            <option value="4">7 PM - 8PM</option>
+            <option value="5" selected>8 PM - 9PM</option>
+            <option value="6">9 PM - 10PM</option>
+            <option value="7">10 PM - 11PM</option>
+        </select><br>
+        set lunch time
+        <select id="lunchtimeselect">
+            <option value="1">11 AM to 12PM</option>
+            <option value="2" selected>12 PM to 1PM</option>
+            <option value="3">1 PM to 2PM</option>
+            <option value="4">2 PM to 3PM</option>
+        </select>
+        <br>
+        set nap time
+        <select id="naptimeselect">
+            <option value="1">9 AM to 10AM</option>
+            <option value="2">10 AM to 11AM</option>
+            <option value="3">11 AM to 12PM</option>
+            <option value="4">12 PM to 1PM</option>
+            <option value="5">1 PM to 2PM</option>
+            <option value="6" selected>2 PM to 3PM</option>
+            <option value="7">3 PM to 4PM</option>
+            <option value="8">4 PM to 5PM</option>
+            <option value="9">5 PM to 6PM</option>
+            <option value="10">6 PM to 7PM</option>
+            <option value="11">7 PM to 8PM</option>
+            <option value="12">8 PM to 9PM</option>
+            <option value="13">9 PM to 10PM</option>
+        </select>
+        <br>
+            <button id="partytimebutton">Party</button>
+            <footer>
+                <p>@vinod kumar perikala</p>
+            </footer>
+        </div>
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>
